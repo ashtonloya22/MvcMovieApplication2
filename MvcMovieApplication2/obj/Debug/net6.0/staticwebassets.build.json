@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D7yeZTTc6CrW8p1WdwbcgLii6msIG2NZNK+EDSIwaJo=",
+  "Hash": "GEY0dY59B2XVCtgLzC75W47YmOzAgYfadDYozqiuIF0=",
   "Source": "MvcMovieApplication2",
   "BasePath": "_content/MvcMovieApplication2",
   "Mode": "Default",
@@ -1698,6 +1698,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\author-signature.png"
+    },
+    {
+      "Identity": "C:\\Users\\Ashton.Loya\\Source\\repos\\MvcMovieApplication2\\MvcMovieApplication2\\wwwroot\\assets\\images\\BackToTheFuture.jpg.jpg",
+      "SourceId": "MvcMovieApplication2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ashton.Loya\\Source\\repos\\MvcMovieApplication2\\MvcMovieApplication2\\wwwroot\\",
+      "BasePath": "_content/MvcMovieApplication2",
+      "RelativePath": "assets/images/BackToTheFuture.jpg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\BackToTheFuture.jpg.jpg"
     },
     {
       "Identity": "C:\\Users\\Ashton.Loya\\Source\\repos\\MvcMovieApplication2\\MvcMovieApplication2\\wwwroot\\assets\\images\\ebook.png",
