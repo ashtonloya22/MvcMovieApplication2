@@ -8,11 +8,41 @@ a.navbar-brand {
 }
 
 /* Provide sufficient contrast against white background */
-a {
-    color: #1b6ec2;
-    display: inline-block;
 
+/*table.table tbody tr td a {
+    color: black;
+    border: 2px solid #none;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    padding: 3px 3px;
+}*/
+
+table.table tbody tr td a {
+    display: inline-block;
+    padding: 1px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: none;
+    background-color: none;
+    border: none;
+    border-radius: 3px;
+    /* box-shadow: 0 5px #808080;*/
 }
+
+    table.table tbody tr td a:active {
+        background-color: #3e8e41;
+        /* box-shadow: 0 5px #666;*/
+        transform: translateY(4px);
+    }
+
+
+    table.table tbody tr td a:hover {
+        background-color: #1b6ec2; /* Blue */
+        color: white;
+    }
 
 .btn-primary {
     color: #fff;
@@ -244,10 +274,138 @@ body {
 }
 
     .button:hover {
-        background-color: #555;
+        background-color: #1861ac;
     }
 
 .header {
     padding-left: 160px;
 }
 
+.table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    color: black;
+}
+
+tbody tr {
+    font-family: OpenSans-Regular;
+    font-size: 20px;
+    color: black;
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: aliceblue
+}
+
+main.pb-3 p a {
+    display: inline-block;
+    padding: 1px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #1b6ec2;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 5px #808080;
+}
+
+    main.pb-3 p a:hover {
+        background-color: #1b6ec2; /* Blue */
+        color: white;
+    }
+
+    main.pb-3 p a:active {
+        background-color: #1b6ec2;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+div.form-group input.btn.btn-primary {
+    display: inline-block;
+    padding: 1px 5px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #1b6ec2;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 7px #999;
+}
+
+    div.form-group:hover {
+        background-color: #none;
+    }
+
+    div.form-group:active {
+        background-color: #none;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    div a {
+        padding-top: 10px;
+    }
+
+div.form-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a#forgot-password {
+    display: inline-block;
+/*    padding-top: 0px;
+    padding-bottom: 0px;*/
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #1b6ec2;
+    border: none;
+    border-radius: 3px;
+/*    box-shadow: 0 2px #808080;*/
+}
+
+.btn {
+  background-color: #; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #1b6ec2;
+}
+
+li.nav-item {
+    float: right;
+}
